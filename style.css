@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    border-radius: 100px;
+    width: 50px;
+}
+.sublogo{
+    border-radius: 100px;
+    width: 30px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:sticky;
+    background-color: white;
+    top: 0px;
+    border-bottom: black solid 2px;
+    padding: 10px;
+    z-index: 2;
+}
+.navbar__s1{
+    display: flex;
+    align-items: center;
+}
+.navbar__s2{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar__s2 p{
+    background-color:transparent;
+    padding: 5px;
+    border-radius: 30px;
+}
+.navbar__s2 p:hover{
+    background-color:lightgray;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+.navbar__s3{
+    display: flex;
+    gap:10px;
+}
+.navbar__s4{
+    border: black 2px solid;
+    border-radius: 30px;
+    background-color:transparent;
+    width: 20%;
+    padding: 5px;
+    align-items: center;
+}
+.navbar__s4 input{
+    border: none;
+    background-color: transparent;
+}
+.navbar__s4 input:focus{
+    outline: none;
+}
+.navbar__s5{
+    display: none;
+}
+
+
+.category{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.category p{
+    border-bottom: solid 2px transparent;
+    
+}
+.category p:hover{
+    border-bottom: black solid 2px;
+}
+.search{
+    display: flex;
+    border: black 2px solid;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 60%;
+    margin-left:20% ;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    
+}
+.search__s1 input{
+    border: none;
+    width: 200px; 
+    background-color: transparent; 
+
+    
+}
+.search__s1 input:focus{
+    outline: none;
+}
+
+
+.search__s2{
+    background-color: cyan;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    top:2px;
+}
+.tripimage{
+    margin-top: 40px;
+}
+.tripimage img{
+    width: 75%;
+    margin-left:12%;
+}
+.travellerfav{
+    margin-top: 20px;
+    margin-left: 15%
+}
+.travellerfav__container{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.travellerfav__places{
+flex-basis: 20%;
+flex-grow: 1;
+position: relative;
+}
+.travellerfav__places img{
+    width: 100%;
+}
+
+.bottomleft{
+    position:absolute;
+    color:white;
+    left: 30px;
+    bottom: 10px;
+}
+.footer{
+    background-color: bisque;
+    color: black;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+   right: 100px;
+}
+.footerone{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.footertwo{
+    
+    padding: 30px;
+    display: flex;
+    
+}
+
+.footertwo__s1{
+    width: 70%;
+}
+.footertwo__s1-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footertwo__s1-links h4{
+   text-decoration: underline;
+}
+.footertwo__s2{
+position: relative;
+left: 100px;
+top: 100px;
+gap: 20px;
+display: flex;
+}
+.madras{
+    margin-top: 20px;
+
+    
+}
+.madras__container{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.madras__places{
+    flex-basis: 20%;
+  flex-grow: 1;
+  
+}
+.madras__places img{
+    width:100%;
+    height:50%;
+}
+.asiancities{
+    margin-top: 20px;
+}
+.asian__container{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.asian__places{
+    flex-basis: 20%;
+    flex-grow: 1;
+    position: relative;
+}
+.asian__places img{
+    width:100%;
+    height:100%
+}
+.beachimg{
+    margin-top: 30px;
+ position: relative;
+}
+.beachimg img{
+    width:80%;
+    height: 20%;
+    
+}
+.explore{
+    margin-top: 30px;
+
+}
+.explore__container{
+    display: flex;
+    width:75%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    position: relative;
+
+    flex-wrap: wrap;
+    
+}
+.explore__places{
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+.explore img{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.dreamtrip__container{
+    display: flex;
+    width:75%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    left:40px;
+    flex-wrap: wrap;
+}
+.dreamtrip__places{
+    position: relative;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+.dreamtrip img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .navbar__s5{
+        display: block;
+    }
+    .navbar__s2,.navbar__s3,.navbar__s4{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+}
+  .travellerfav__places,.asian__places,.madrasplaces{
+    flex-basis: 45%
+    
+  }
+  
+ .dreamtrip__places,.explore__places{
+    flex-basis: 60%;
+    margin-top: 10px;
+ }
+.footer{
+    margin-left: 100px;
+}
+ 
+
+.footerone{
+ display: none;
+    
+}
+.footertwo__s2{
+    display: none;
+}
+.explore img{
+    height: 100%;
+    width: 100%;
+
+}
+.dreamtrip{
+    margin-top: 40px;
+}
+.explore{
+    margin-top: 10px;
+}
+}
+
+
+
